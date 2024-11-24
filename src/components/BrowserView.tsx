@@ -1,5 +1,5 @@
 import React from 'react';
-import { NewTab } from './NewTab';
+import { NewTab } from './NewTab.tsx';
 
 interface BrowserViewProps {
   url: string;
