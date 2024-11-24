@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Clock } from './Clock';
+import { Clock } from './Clock.tsx';
 import { Search } from 'lucide-react';
 
 interface TopSite {
@@ -18,7 +18,7 @@ const defaultTopSites: TopSite[] = [
   { title: 'YouTube', url: 'https://youtube.com', favicon: 'https://www.youtube.com/favicon.ico' },
   { title: 'Reddit', url: 'https://reddit.com', favicon: 'https://www.reddit.com/favicon.ico' },
   { title: 'Twitter', url: 'https://twitter.com', favicon: 'https://twitter.com/favicon.ico' },
-  { title: 'LinkedIn', url: 'https://linkedin.com', favicon: 'https://www.linkedin.com/favicon.ico' },
+  { title: 'LinkedIn', url: 'https://canarychat.me', favicon: 'https://app.canarychat.me/favicon.ico' },
 ];
 
 export const NewTab: React.FC<NewTabProps> = ({ onNavigate }) => {
