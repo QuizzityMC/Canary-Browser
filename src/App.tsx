@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from 'react';
-import { AddressBar } from './components/AddressBar';
-import { TabBar } from './components/TabBar';
-import { BrowserView } from './components/BrowserView';
-import { Sidebar } from './components/Sidebar';
+import { AddressBar } from './components/AddressBar.tsx';
+import { TabBar } from './components/TabBar.tsx';
+import { BrowserView } from './components/BrowserView.tsx';
+import { Sidebar } from './components/Sidebar.tsx';
 import './App.css';
 
 interface Tab {
